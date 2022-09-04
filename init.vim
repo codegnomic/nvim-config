@@ -32,6 +32,8 @@ colorscheme gruvbox
 let mapleader = " "
 let g:floaterm_keymap_new = '<F6>'
 let g:floaterm_keymap_toggle = '<F10>'
+let g:floaterm_keymap_prev = '<F7>'
+let g:floaterm_keymap_next = '<F8>'
 let g:floaterm_wintype = 'split'
 
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
